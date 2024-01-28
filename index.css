@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Es para dar color al fondo*/
+    background: aquamarine;
+    /*Es para dar color al texto*/
+    color: blue;
+    /*posicion de todo los que esta dentro de l texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*direccion del texto*/
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+h3{
+    color: coral;
+}
+h4{
+    color: yellow;
+}
+h5{
+    color: cornflowerblue;
+}
+h6{
+    color: crimson;
+    margin-bottom: 20px;
+}
+p{
+    color:#09f;
+}
